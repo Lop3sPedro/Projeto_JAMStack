@@ -1,0 +1,18 @@
+overwrite: true #toda vez q eu realizar o codegen ele vai substituir o anterior
+
+schema: "https://api-sa-east-1.graphcms.com/v2/cl45xgq3f19mu01yvcl0k0aoe/master"
+
+documents: "./src/graphql/**/*.graphql"
+
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-urql"
+    config:
+      withHooks: true
+
+hooks:
+  afterAllFileWrite:
+    - eslint --fix
