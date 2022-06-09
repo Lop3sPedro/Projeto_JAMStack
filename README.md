@@ -1,3 +1,3 @@
 # Projeto JAMStack
 
-### Introdução ao GraphQL e interação de dados de uma API, projeto sendo feito com Next, GraphQL, GraphCMS e TailwindCss
+### Estudo de introdução ao GraphQL e interação de dados de uma API. Projeto sendo feito com Next, GraphQL, GraphCMS e TailwindCss
